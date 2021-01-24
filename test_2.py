@@ -8,19 +8,6 @@ Original file is located at
 """
 
 import time
-from os import system
-
-def clear(): 
-  
-    # for windows 
-    if name == 'nt': 
-        _ = system('cls') 
-  
-    # for mac and linux(here, os.name is 'posix') 
-    else: 
-        _ = system('clear') 
-
-
 def efficientJanitor(n, weight):
 
   trip = 0
@@ -57,6 +44,3 @@ while( True ):
     if(len(weight) == n):
         break
 efficientJanitor(n, weight)
-
-
-
